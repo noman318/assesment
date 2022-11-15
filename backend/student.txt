@@ -1,2 +1,3 @@
 Name: Noman  Age: 23  Class: 8  Number: 9000000000  Email: shaikhnoman@gamil.com  Address: Mumbai  Date_of_Birth: 2022-01-04
 Name: Bharat  Age: 22  Class: 8  Number: 9123456764  Email: bharatsuthar@gmail.com  Address: Bhayander  Date_of_Birth: 2022-01-01
+Name: Shaikh Mohd Noman  Age: 23  Class: 7  Number: 9087556735  Email: shaikhmohdn@gmail.com  Address: Mumabi  Date_of_Birth: 2022-11-01 a new Data has been added
