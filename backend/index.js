@@ -23,6 +23,15 @@ app.post("/register", (req, res) => {
   console.log(
     `Name: ${name} \nAge: ${age} \nClass: ${clas} \nNumber: ${number} \nEmail: ${email}\nAddress: ${addr}\nDate_of_Birth: ${dob}`
   );
+  fs.appendFile(
+    "student.txt",
+    `Name: ${name}  Age: ${age}  Class: ${clas}  Number: ${number}  Email: ${email}  Address: ${addr}  Date_of_Birth: ${dob}\n`,
+    (err) => {
+      if (err) {
+        console.log(err);
+      }
+    }
+  );
   res
     .status(201)
     .send(

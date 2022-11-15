@@ -10,13 +10,13 @@
     <h3>Register to student Portal</h3>
     <form action="/register" method="post">
         <label for="fname">Name</label>
-        <input type="text" name="myname" pattern="_[a-zA-Z]+" required /><br /><br />
+        <input type="text" name="myname" required /><br /><br />
         <label for="age">Age</label>
         <input type="number" name="age" required min="3" /><br /><br />
         <label for="class">Class</label>
         <input type="number" name="clas" required min="1" /><br /><br />
         <label for="number">Number</label>
-        <input type="text" name="number" required /><br /><br />
+        <input type="text" name="number" required maxlength="10" /><br /><br />
         <label for="email">E-Mail</label>
         <input type="email" name="email" /><br /><br />
         <!-- <label for="age">Age</label>
