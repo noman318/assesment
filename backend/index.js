@@ -22,12 +22,12 @@ app.get("/", (req, res) => {
 //   const dob = req.body.dob;
 app.post("/register", (req, res) => {
   const studData = {
-    naam: req.body.myname,
+    naam: req.body.naam,
     age: req.body.age,
     clas: req.body.clas,
     number: req.body.number,
     email: req.body.email,
-    addr: req.body.address,
+    addr: req.body.addr,
     dob: req.body.dob,
   };
   // console.log(
